@@ -10,3 +10,5 @@ def driver():
 @pytest.fixture 
 def open_main_desk():
     driver.get("https://qa-desk.stand.praktikum-services.ru/")
+
+'Что-то'
