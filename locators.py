@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 
 
 class Locators:
+
+    # for registration_and_login
     BUTTON_OPEN_WINDOW_LOGIN = By.XPATH, ".//button[text() = 'Вход и регистрация']"
     INPUT_EMAIL = By.NAME, "email"
     INPUT_PASSWORD = By.NAME, "password"
@@ -15,6 +17,11 @@ class Locators:
     FRAME_FIELD_EMAIL = By.XPATH, ".//input[@name='email']/ancestor::div[@class='input_inputError__fLUP9']"
     FRAME_FIELD_PASSWORD = By.XPATH, ".//input[@name='password']/ancestor::div[@class='input_inputError__fLUP9']"
     FRAME_FIELD_REPEAT_PASSWORD = By.XPATH, ".//input[@name='submitPassword']/ancestor::div[@class='input_inputError__fLUP9']"
+    BUTTON_LOG_IN = By.XPATH, ".//button[text() = 'Войти']"
+    BUTTON_LOG_OUT = By.XPATH, ".//button[text() = 'Выйти']"
+
+    # for creating_ads
+
 
 
 
