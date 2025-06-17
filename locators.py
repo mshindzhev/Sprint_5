@@ -19,6 +19,16 @@ class Locators:
     FRAME_FIELD_REPEAT_PASSWORD = By.XPATH, ".//input[@name='submitPassword']/ancestor::div[@class='input_inputError__fLUP9']"
     BUTTON_LOG_IN = By.XPATH, ".//button[text() = 'Войти']"
     BUTTON_LOG_OUT = By.XPATH, ".//button[text() = 'Выйти']"
+    TXT_NEED_AUTHORIZATION = By.XPATH, ".//h1[text()='Чтобы разместить объявление, авторизуйтесь']"
+    INPUT_NAME_PRODUCT = By.NAME, "name"
+    INPUT_DESCRIPTION_PRODUCT = By.XPATH, ".//textarea[@name='description']"
+    INPUT_PRICE_PRODUCT = By.NAME, "price"
+    RADIO_BUTTON_USED_PRODUCT = By.XPATH, ".//div[@class='radioUnput_inputRegular__FbVbr']"
+    BUTTON_PUBLISH_AD = By.XPATH, ".//button[text() = 'Опубликовать']"
+    DROPDOWN_CATEGORY = By.XPATH, ".//input[@name='category']/following-sibling::button"
+    DROPDOWN_CITY = By.XPATH, ".//input[@name='city']/following-sibling::button"
+    POINT_IN_DROPDOWN_CATEGORY = By.XPATH, ".//span[text()='Хобби']"
+    POINT_IN_DROPDOWN_CITY = By.XPATH, ".//span[text()='Казань']"
 
     # for creating_ads
 
