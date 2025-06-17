@@ -1,12 +1,9 @@
-import time
-
-from selenium.webdriver.common.by import By
-
 import data
 import helpers
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from locators import Locators
+from selenium.webdriver.common.by import By
 
 
 class TestCreatingAds:

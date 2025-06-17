@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 
 class Locators:
 
-    # for registration_and_login
     BUTTON_OPEN_WINDOW_LOGIN = By.XPATH, ".//button[text() = 'Вход и регистрация']"
     INPUT_EMAIL = By.NAME, "email"
     INPUT_PASSWORD = By.NAME, "password"
@@ -30,7 +29,6 @@ class Locators:
     POINT_IN_DROPDOWN_CATEGORY = By.XPATH, ".//span[text()='Хобби']"
     POINT_IN_DROPDOWN_CITY = By.XPATH, ".//span[text()='Казань']"
 
-    # for creating_ads
 
 
 

@@ -1,11 +1,10 @@
 import data
-import helpers
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from locators import Locators
 
 
-class TestLogin:
+class TestLoginAndLogout:
 
     def test_login_user(self, driver, main_page):
         driver.find_element(*Locators.BUTTON_OPEN_WINDOW_LOGIN).click()
